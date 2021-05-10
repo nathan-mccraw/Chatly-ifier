@@ -7,7 +7,7 @@ In the mockup linked below, you'll find a simple, static chat log. We'd like you
 
 ## Provided Assets
 - Design file - See [chatly-ifier_project.psd](/chatly-ifier_project.psd) included in repo ([see preview below](README.md#design-preview)). Don't have Photoshop? [Adobe offers a free seven-day trial](https://www.adobe.com/products/photoshop/free-trial-download.html)
-- API endpoint for the data set - https://api.myjson.com/bins/18ce70
+- API endpoint for the data set - https://jsonkeeper.com/b/T39D
 
 
 ## Guidelines
