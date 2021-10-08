@@ -22,7 +22,6 @@ function createTranscript(data) {
   for (let message of data.messages) {
     const messageContainer = document.createElement("div");
     messageContainer.className = "messageContainer";
-    if (message.focused) messageContainer.classList.add("focused");
 
     const userImg = document.createElement("img");
     userImg.src = message.image;
@@ -39,13 +38,14 @@ function createTranscript(data) {
       formatTime(message.timestamp)
     );
 
+    const messageFooterElement = document.createElement("div");
+    messageFooterElement.className = "messageFooter";
+    messageFooterElement.append(usernameElement, timestampElement);
+
     const messageBodyElement = document.createElement("div");
     messageBodyElement.className = "messageBody";
-    messageBodyElement.append(
-      messageTextElement,
-      usernameElement,
-      timestampElement
-    );
+    if (message.focused) messageBodyElement.classList.add("focused");
+    messageBodyElement.append(messageTextElement, messageFooterElement);
 
     message.username === firstUser
       ? messageContainer.append(userImg, messageBodyElement)

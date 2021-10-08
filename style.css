@@ -37,8 +37,26 @@ html {
   border-radius: 10px;
 }
 
+.messageFooter {
+  display: flex;
+  gap: 1rem;
+}
+
 .userImage {
   align-self: flex-start;
   width: 50px;
   border-radius: 50%;
+}
+
+.focused {
+  background-color: white;
+  box-shadow: 1px 2px 10px 5px var(--gray);
+}
+
+.firstUser {
+  color: blue;
+}
+
+.secondUser {
+  color: orange;
 }
