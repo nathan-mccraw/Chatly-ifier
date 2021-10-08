@@ -13,7 +13,7 @@ function getTranscript() {
 }
 
 function createTranscript(data) {
-  const documentDate = document.getElementById("documentDate");
+  const documentDate = document.getElementById("transcriptDate");
   documentDate.textContent = formatDate(data.conversationDate);
 
   const chatWindow = document.getElementById("chatWindow");
@@ -40,6 +40,7 @@ function createTranscript(data) {
     );
 
     const messageBodyElement = document.createElement("div");
+    messageBodyElement.className = "messageBody";
     messageBodyElement.append(
       messageTextElement,
       usernameElement,
