@@ -1,6 +1,6 @@
 # Chatly-ifier - Nathan McCraw
 
-Look at this project ![here](https://nathan-mccraw.github.io/Chatly-ifier/). This project is currently deployed on github pages through my personal github repo.
+Deployment of the project can be seen [here](https://nathan-mccraw.github.io/Chatly-ifier/). This project is currently deployed on github pages through my personal github repo.
 
 The purpose of this document is to exhibit my technical writing and showcase the features of this application.
 
@@ -8,7 +8,9 @@ This small web application was built for Red Ventures utilizing html, CSS, and v
 
 ## Deliverables
 
-Red Ventures provided a ![chatly-ifier_project design image](/chatly-ifier_project.png) and an API endpoint. No functionality requirements were specified. Red Ventures provided the following design requirements:
+[chatly-ifier_project design image](/chatly-ifier_project.png)
+
+Red Ventures provided a design image, depicted above, and an API endpoint. No functionality requirements were specified. Red Ventures provided the following design requirements:
 
 1. Avoid using any libraries or frameworks.
    - This requirement was met as on frameworks or libraries were used in the completion of this project.
@@ -41,3 +43,7 @@ Red Ventures provided a ![chatly-ifier_project design image](/chatly-ifier_proje
    At less than 500 pixels view width: - The title bar displaying the document title and the document date goes from display flex to block. - The user image display is set to none.
 2. The provided design preview inferred an ability to change the focus to a different message with an onclick event. This feature was included in this project.
 3. This project would allow for building a transcript from any endpoint that returns a JSON object with the same object keys.
+
+![full screen view port](/AppScreenShots/Large_Viewport.jpg)
+![iPad view port](/AppScreenShots/iPad_Viewport.jpg)
+![iPhone 5 view port](/AppScreenShots/iPhone5_Viewport.jpg)
