@@ -1,38 +1,43 @@
-# Project Instructions
+# Chatly-ifier - Nathan McCraw
 
-We've created this project to help us identify your strengths. This isn't about making anyone do grunt work or jump through additional hoops in our interview process. We want to turn you loose, see what you can do and quickly determine where in our organization you can be most effective. This assessment has been setup to take a minimal amount of time, while explicitly outlining what we are looking for you to demonstrate knowledge of.
+Look at this project ![here](https://nathan-mccraw.github.io/Chatly-ifier/). This project is currently deployed on github pages through my personal github repo.
 
-In the mockup linked below, you'll find a simple, static chat log. We'd like you to produce the HTML, CSS, and JavaScript necessary to consume data from the API endpoint and generate a web page matching the design specs.
+The purpose of this document is to exhibit my technical writing and showcase the features of this application.
 
+This small web application was built for Red Ventures utilizing html, CSS, and vanilla JavaScript (ES6+ syntax but no frameworks or libraries were used). This project was authored by Nathan McCraw.
 
-## Provided Assets
-- Design file - See [chatly-ifier_project.psd](/chatly-ifier_project.psd) included in repo ([see preview below](README.md#design-preview)). Don't have Photoshop? [Adobe offers a free seven-day trial](https://www.adobe.com/products/photoshop/free-trial-download.html)
-- API endpoint for the data set - https://redventures.github.io/chatly-ifier/api/v1.json
+## Deliverables
 
+Red Ventures provided a ![chatly-ifier_project design image](/chatly-ifier_project.png) and an API endpoint. No functionality requirements were specified. Red Ventures provided the following design requirements:
 
-## Guidelines
-This repository is yours to make your own. We ask that you work in the **development** branch and only use the **master** branch in the final submission step (see below for instructions on submitting the project). Other than that, feel free to configure your directories and workflows how ever you work best.
+1. Avoid using any libraries or frameworks.
+   - This requirement was met as on frameworks or libraries were used in the completion of this project.
+2. Ability to boot project without installing any dependencies.
+   - There is no need to install any dependencies for this project, as no libraries or frameworks were used. Google fonts were used my expectation in production would be to use a provided font.
+3. Project should function in the latest versions of Chrome, Safari and Firefox.
+   - Project functions in Chrome, Firefox, and Safari with full functionality and responsive design.
+4. A clean, semantic HTML structure.
+5. Clear, well-organized CSS that matches project design.
+6. Fast, light-weight JS. Preference in ES6+ syntax.
+   - ES6+ syntax was used where applicable.
+7. An asynchronous network request (method cannot use a library/framework/npm package) to retrieve the data from the API endpoint provided.
+   - Fetch was used for the http get request in this project.
+8. Modular, reusable code.
+   - At the cost of a slightly larger code base, I decided to impliment smaller functions with the single responsibility principle in mind. I felt the larger code base was justified for the purposes of readable and maintainable code; these smaller functions allow for modular and reusable code.
+9. SEO-friendly, accessible markup.
+   - Project includes content relevant meta data description, relevant project title, relevant h1 tag, and alt attributes on images.
+10. Code comments.
+    - Comments were minimal in this project as I felt the code was clean and readable.
 
-**Try to avoid using any libraries or frameworks in your code.** This assessment is designed to showcase your code. We want to see as much of it as possible in this project!
+## Local Installation
 
-A compiler/build process is not necessary, but if you do use one, please include a `/dist` directory in your final submission. We'd like to be able to boot up your project without installing any dependencies.
+1. From this github repository, download zip file and extract all files from the compressed folder into your desired location.
+2. The three files: index.hmtl, script.js, and style.css must remain in the same folder for this project to load.
+3. Open the index.html in Google Chrome, Firefox, or Safari to use application.
 
-Your project should function in the latest versions of Chrome, Safari and Firefox. That's all we're requiring. Feel free to use the latest tech modern web browsers have to offer. No need to stress about transpilers and crappy IE browser support.
+# Features
 
-### Key items we’re looking for:
-- A clean, semantic HTML structure
-- Clear, well-organized CSS that matches the design. Use of CSS preproccessor/transpiler is allowed, but not required!
-- Fast, light-weight JS. We would prefer to see ES6+ syntax, but write whatever you're most comfortable with.
-- An asynchronous network request (in method of your choosing, but without using a library/framework/npm package) to retrieve the data from the API endpoint provided
-
-### Bonus items: 
-- Modular, reusable code
-- SEO-friendly, accessible markup
-- Code comments
- 
- 
-## How to Submit
-Bundle up any source code (if you have separate source files) into a browser-ready `/dist` directory. Once you've completed your project, open a pull request from your **development** branch into **master**. Feel free to make liberal use of the description field if you have comments you want to communicate to the review team. Add your recruiter to as a reviewer (to notify them you've completed this step), and expect to hear back from us soon!
-
-## Design Preview
-![chatly-ifier_project design image](/chatly-ifier_project.png)
+1. Responsive design - This project was built with a responsive design in mind. The application has a neat appearance at any view port width.
+   At less than 500 pixels view width: - The title bar displaying the document title and the document date goes from display flex to block. - The user image display is set to none.
+2. The provided design preview inferred an ability to change the focus to a different message with an onclick event. This feature was included in this project.
+3. This project would allow for building a transcript from any endpoint that returns a JSON object with the same object keys.

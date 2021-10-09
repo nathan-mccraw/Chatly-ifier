@@ -2,7 +2,7 @@
   --gray: #e6e6e6;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .userImage {
     display: none;
   }
@@ -48,6 +48,10 @@ html {
   background-color: var(--gray);
   padding: 10px 15px 0px 15px;
   border-radius: 5px;
+}
+
+.messageBody :hover {
+  cursor: pointer;
 }
 
 .messageText {
