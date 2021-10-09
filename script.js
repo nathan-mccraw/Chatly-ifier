@@ -44,6 +44,10 @@ function createTranscript(data) {
 
     const messageBodyElement = document.createElement("div");
     messageBodyElement.className = "messageBody";
+    messageBodyElement.onclick = (event) => {
+      document.querySelector(".focused").classList.remove("focused");
+      messageBodyElement.classList.add("focused");
+    };
     if (message.focused) messageBodyElement.classList.add("focused");
     messageBodyElement.append(messageTextElement, messageFooterElement);
 
