@@ -4,11 +4,11 @@ Deployment of the project can be seen [here](https://nathan-mccraw.github.io/Cha
 
 The purpose of this document is to exhibit my technical writing and showcase the features of this application.
 
-This small web application was built for Red Ventures utilizing html, CSS, and vanilla JavaScript (ES6+ syntax but no frameworks or libraries were used). This project was authored by Nathan McCraw.
+This small web application was built for Red Ventures utilizing html, CSS, and vanilla JavaScript (ES6+ syntax but no frameworks or libraries were used). This project was completed by Nathan McCraw.
 
 ## Deliverables
 
-[chatly-ifier_project design image](/chatly-ifier_project.png)
+![chatly-ifier_project design image](/chatly-ifier_project.png)
 
 Red Ventures provided a design image, depicted above, and an API endpoint. No functionality requirements were specified. Red Ventures provided the following design requirements:
 
@@ -44,6 +44,22 @@ Red Ventures provided a design image, depicted above, and an API endpoint. No fu
 2. The provided design preview inferred an ability to change the focus to a different message with an onclick event. This feature was included in this project.
 3. This project would allow for building a transcript from any endpoint that returns a JSON object with the same object keys.
 
-![full screen view port](/AppScreenShots/Large_Viewport.jpg)
-![iPad view port](/AppScreenShots/iPad_Viewport.jpg)
-![iPhone 5 view port](/AppScreenShots/iPhone5_Viewport.jpg)
+#
+
+Application on Browser (Large Viewport)
+
+<img src="https://user-images.githubusercontent.com/84479635/136669777-a0567ca5-e149-4614-bf07-d37d5008325b.JPG" alt="large viewport app screenshot" width="800"/>
+
+#
+
+Application on iPad (Medium Viewport)
+
+<img src="https://user-images.githubusercontent.com/84479635/136669787-66fe6fa3-d11d-479d-95fc-5e300dcf4ba1.JPG" alt="iPad viewport app screenshot" width="400"/>
+
+#
+
+Application on iPhone5(Small Viewport)
+
+<img src="https://user-images.githubusercontent.com/84479635/136669792-1d1dd1d4-cf8a-424d-8b21-9970f80a63da.JPG" alt="iPhone5 viewport app screenshot" width="200"/>
+
+
