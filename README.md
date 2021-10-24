@@ -4,13 +4,13 @@ Deployment of the project can be seen [here](https://nathan-mccraw.github.io/Cha
 
 The purpose of this document is to exhibit my technical writing and showcase the features of this application.
 
-This small web application was built for Red Ventures utilizing html, CSS, and vanilla JavaScript (ES6+ syntax but no frameworks or libraries were used). This project was completed by Nathan McCraw.
+This small web application was built for a potential employer utilizing html, CSS, and vanilla JavaScript (ES6+ syntax but no frameworks or libraries were used). This project was completed by Nathan McCraw.
 
 ## Deliverables
 
 ![chatly-ifier_project design image](/chatly-ifier_project.png)
 
-Red Ventures provided a design image, depicted above, and an API endpoint. No functionality requirements were specified. Red Ventures provided the following design requirements:
+This employer provided a design image, depicted above, and an API endpoint. No functionality requirements were specified. This employer provided the following design requirements:
 
 1. Avoid using any libraries or frameworks.
    - This requirement was met as on frameworks or libraries were used in the completion of this project.
