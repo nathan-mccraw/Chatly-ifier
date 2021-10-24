@@ -70,7 +70,7 @@ function createUserImageElement(imageURL) {
 }
 
 function createMessageContainer() {
-  messageContainerElement = document.createElement("div");
+  const messageContainerElement = document.createElement("div");
   messageContainerElement.className = "messageContainer";
   return messageContainerElement;
 }
@@ -100,7 +100,7 @@ function formatTime(timestamp) {
 }
 
 function createPElement(className, content) {
-  PElement = document.createElement("p");
+  const PElement = document.createElement("p");
   PElement.className = `${className}`;
   PElement.textContent = `${content}`;
   return PElement;
